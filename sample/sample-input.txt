@@ -1,0 +1,18 @@
+public class SampleService {
+
+    public void case1() {
+        executeTransaction("user", "info", "ABC1234X001");
+    }
+
+    public void case2() {
+        executeTransaction(
+            "order",
+            "detail",
+            "XYZ5678R002"
+        );
+    }
+
+    public void case3() {
+        executeTransaction("a", "b", "LMN0001U003");
+    }
+}
